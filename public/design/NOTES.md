@@ -84,8 +84,9 @@ other two, not a lesser one. No imagery of people, named places or documents app
 
 **Fast and light.** No JavaScript at all in the deliverable, and none required by the design.
 Search and filtering are plain `GET` forms that submit and reload, so results have bookmarkable,
-citable addresses. No images are loaded; image plates are CSS. The only network request beyond the
-document and one stylesheet is the webfont, and the stack degrades to Georgia/system-ui.
+citable addresses. The showcase home page uses real editorial images from the live Ozikoro site;
+archive records without approved imagery retain deliberate CSS image plates. Webfonts degrade to
+Georgia/system-ui.
 
 **Accessibility.** One `h1` per screen and a real heading hierarchy through long documents; skip
 link on every screen; `:focus-visible` ring in a blue that is never used decoratively, so a focus
