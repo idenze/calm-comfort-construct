@@ -111,7 +111,7 @@ particulars must be supplied by Ozi Ikoro Limited and invents nothing in their p
 
 ## Departures and additions
 
-1. **`screens/type-test.html` is an extra file**, beyond the ten screens asked for. The brief calls
+1. **`screens/type-test.html` is an extra file**, beyond the screens originally asked for. The brief calls
    the typeface the single most common silent failure and asks that it be tested explicitly; a page
    that can be reopened in any substitute face is the only durable form of that test.
 2. **The 404 is treated as a citation-recovery screen** rather than a generic not-found. For a site
@@ -140,3 +140,12 @@ a single readable file; in the application they should become the spacing utilit
 styles the app already has. Everything that carries a design decision — the tokens, the type scale,
 the chips, the provenance block, the record table, the empty states, the rail, the steps — is in
 `styles/main.css` and should be copied from there.
+
+
+## Complete-experience expansion
+
+The master blueprint is now represented by dedicated public support journeys and nine role-specific dashboard homes. Added screens cover donation, sponsorship and investor enquiries; Reader, Student, Teacher, Researcher, Independent Researcher, Community Knowledge Holder, Editor, Expert Reviewer and Admin workspaces; publishing, review, moderation, account and universal interface states. All values and activity are labelled demonstrations.
+
+The About page uses only four people verifiably published by Ozikoro: Idenze Ezeme, Kosisochukwu Nzeribe, Chukwunwike Ossai and Chuka Odike. No approved portraits were publicly verifiable, so the design shows explicit portrait vacancies rather than substituting stock imagery. The live site has no established donation, sponsorship or investment programme; those pages therefore describe possible flows without claiming existing partners, amounts, returns or relationships.
+
+Folklores is deliberately a separate reading register: a cover, contents and full story spread create the rhythm of an illustrated storybook. The article template uses a modern reading rail, visible evidence status, progress and compact mobile controls. Both retain permanent-source language and mobile readability.
