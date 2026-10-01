@@ -217,6 +217,11 @@ body { background: var(--cream); }
 }
 @media (max-width: 40rem) {
   .sx-doors { grid-template-columns: 1fr; }
+  .sx-tales { grid-template-columns: 1fr; }
+  .sx-tale-lead { grid-column: auto; }
+  .sx-tale { min-height: 18rem; }
+  .sx-tale-lead .sx-tale-copy strong { font-size: var(--t-xl); }
+  .sx-cats a { font-size: var(--t-base); padding: var(--s-2) var(--s-4); }
   .sx-archive-visual { min-height: 25rem; margin-inline: calc(var(--s-4) * -1); border-radius: 0; }
   .sx-archive-title { left: var(--s-4); bottom: var(--s-4); }
   .sx-archive-title h2 { font-size: 2.75rem; }
