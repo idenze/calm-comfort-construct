@@ -79,7 +79,12 @@ body { background: var(--cream); }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
 
 /* ---------- gold marquee strip of places ---------- */
-.sx-marquee { background: var(--emerald-deep); color: var(--gold-bright); overflow: hidden; border-block: 1px solid rgba(201, 168, 76, .35); }
+.sx-marquee { display: flex; align-items: stretch; background: var(--emerald-deep); color: var(--gold-bright); overflow: hidden; border-block: 1px solid rgba(201, 168, 76, .35); }
+.sx-market-tab { display: flex; align-items: center; gap: .6rem; flex-shrink: 0; padding: var(--s-3) var(--s-5); background: linear-gradient(135deg, #8a6a24, #c9a84c); color: #0d241b; font-family: var(--font-serif); font-size: var(--t-base); white-space: nowrap; text-decoration: none; border-right: 1px solid rgba(201, 168, 76, .35); position: relative; z-index: 1; }
+.sx-market-tab b { font-weight: 600; }
+.sx-market-tab em { font-style: normal; font-family: var(--font-sans); font-size: var(--t-sm); opacity: .85; }
+.sx-market-tab:hover b { text-decoration: underline; }
+.sx-marquee-track { overflow: hidden; flex: 1; min-width: 0; }
 .sx-marquee ul { display: flex; gap: var(--s-7); width: max-content; padding-block: var(--s-3); animation: marquee 40s linear infinite; }
 .sx-marquee li { font-family: var(--font-serif); font-size: var(--t-lg); white-space: nowrap; }
 .sx-marquee li::after { content: "◆"; margin-left: var(--s-7); font-size: .6em; vertical-align: middle; color: var(--gold); }
