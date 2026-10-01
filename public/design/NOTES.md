@@ -149,3 +149,9 @@ The master blueprint is now represented by dedicated public support journeys and
 The About page uses only four people verifiably published by Ozikoro: Idenze Ezeme, Kosisochukwu Nzeribe, Chukwunwike Ossai and Chuka Odike. No approved portraits were publicly verifiable, so the design shows explicit portrait vacancies rather than substituting stock imagery. The live site has no established donation, sponsorship or investment programme; those pages therefore describe possible flows without claiming existing partners, amounts, returns or relationships.
 
 Folklores is deliberately a separate reading register: a cover, contents and full story spread create the rhythm of an illustrated storybook. The article template uses a modern reading rail, visible evidence status, progress and compact mobile controls. Both retain permanent-source language and mobile readability.
+
+## Calm reading, listening and market days
+- Article and folklore readers share one warm-paper book page: central measure, contents drawer, page-turn navigation.
+- Listen panel uses optional browser narration (reader.js); published audio needs narrator, rights and transcript. Text always stays readable without JavaScript.
+- Igbo Market Days shows the modern date and the four days, but only converts after a verified community calendar is chosen — no universal anchor is claimed.
+- Folklore library gives every story equal weight.
