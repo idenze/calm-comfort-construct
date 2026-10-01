@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ozikoro.com — design deliverable, walkthrough</title>
+<meta name="description" content="Static HTML and CSS design for ozikoro.com: every screen, the tokens, and the notes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="platform-bar">
+  <div class="wrap">
+    <ul><li><a href="index.html" class="here">Design deliverable — walkthrough</a></li></ul>
+    <span class="owner">Ozi Ikoro Limited · ozikoro.com</span>
+  </div>
+</div>
+
+<main id="main" class="wrap section">
+  <p class="eyebrow">Design deliverable</p>
+  <h1 style="margin-top:var(--s-3);max-width:20ch">ozikoro.com</h1>
+  <p class="lede" style="margin-top:var(--s-5);max-width:52ch">Static HTML and CSS. No build step, no preprocessor, no framework. Every screen opens directly in a browser and works at desktop width and at 375px. All mock content is labelled as example material.</p>
+
+  <section style="margin-top:var(--s-8)">
+    <h2>Screens</h2>
+    <div class="grid-3 walk-list" style="margin-top:var(--s-5)">
+      <a class="card" href="screens/home.html"><p class="eyebrow">01</p><h3 style="margin-top:var(--s-2)">Home</h3><p class="small muted" style="margin-top:var(--s-2)">The five doors, recent histories, how to cite the platform.</p></a>
+      <a class="card" href="screens/article.html"><p class="eyebrow">02</p><h3 style="margin-top:var(--s-2)">An article</h3><p class="small muted" style="margin-top:var(--s-2)">Long-form history as a scholarly object: tags, period, sources, citation.</p></a>
+      <a class="card" href="screens/archive-index.html"><p class="eyebrow">03</p><h3 style="margin-top:var(--s-2)">Archive index &amp; filters</h3><p class="small muted" style="margin-top:var(--s-2)">Group, clan, place, period, source type — a plain form, no JavaScript.</p></a>
+      <a class="card" href="screens/researcher-profile.html"><p class="eyebrow">04</p><h3 style="margin-top:var(--s-2)">Researcher profile</h3><p class="small muted" style="margin-top:var(--s-2)">Business card and CV in one, with the empty state shown.</p></a>
+      <a class="card" href="screens/publication.html"><p class="eyebrow">05</p><h3 style="margin-top:var(--s-2)">Publication</h3><p class="small muted" style="margin-top:var(--s-2)">Abstract, authors, archive material used, citation formats.</p></a>
+      <a class="card" href="screens/upload.html"><p class="eyebrow">06</p><h3 style="margin-top:var(--s-2)">Upload &amp; publish flow</h3><p class="small muted" style="margin-top:var(--s-2)">File, description, terms and access, review.</p></a>
+      <a class="card" href="screens/documents.html"><p class="eyebrow">07</p><h3 style="margin-top:var(--s-2)">Archive of documents &amp; photographs</h3><p class="small muted" style="margin-top:var(--s-2)">Objects with provenance, access and reuse on every record.</p></a>
+      <a class="card" href="screens/academy.html"><p class="eyebrow">08</p><h3 style="margin-top:var(--s-2)">The Academy landing</h3><p class="small muted" style="margin-top:var(--s-2)">Courses, and how the three sites are one institution.</p></a>
+      <a class="card" href="screens/about.html"><p class="eyebrow">09</p><h3 style="margin-top:var(--s-2)">About / the institution</h3><p class="small muted" style="margin-top:var(--s-2)">Ozi Ikoro Limited, standing rules, entrusting material, terms.</p></a>
+      <a class="card" href="screens/404.html"><p class="eyebrow">10</p><h3 style="margin-top:var(--s-2)">404</h3><p class="small muted" style="margin-top:var(--s-2)">A broken citation is a first-class case, not a joke page.</p></a>
+      <a class="card" href="screens/type-test.html" style="background:var(--surface-sunk)"><p class="eyebrow">Test</p><h3 style="margin-top:var(--s-2)">Igbo typeface proof</h3><p class="small muted" style="margin-top:var(--s-2)">ị ọ ụ ñ and the tone marks, every size, weight, roman and italic.</p></a>
+    </div>
+  </section>
+
+  <section style="margin-top:var(--s-8)">
+    <h2>Files</h2>
+    <table class="record" style="margin-top:var(--s-4);max-width:42rem">
+      <tbody>
+        <tr><th scope="row">index.html</th><td>This walkthrough</td></tr>
+        <tr><th scope="row">screens/*.html</th><td>One file per screen</td></tr>
+        <tr><th scope="row">styles/main.css</th><td>All CSS, plain, imports the tokens</td></tr>
+        <tr><th scope="row">tokens.css</th><td>Custom properties alone</td></tr>
+        <tr><th scope="row">NOTES.md</th><td>Rationale, inventory, and every departure</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section style="margin-top:var(--s-8)">
+    <div class="provenance">
+      <p class="eyebrow">Two things the implementer must know</p>
+      <ol>
+        <li>Every name, town, count and entry in these screens is example material and is labelled on the page. Nothing here is a record held by Ozikoro, and none of it should ship.</li>
+        <li>The typeface choice is a hard requirement, not a preference: Noto Serif and Noto Sans carry ị ọ ụ ñ and the combining tone marks in every weight and in italic, so no dotted vowel falls back to a second font. See the typeface proof and NOTES.md before substituting anything.</li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="legal" style="margin-top:0;border-top:0;padding-top:0">
+      <span>Design deliverable for ozikoro.com · Ozi Ikoro Limited</span>
+      <span>Plain HTML &amp; CSS · no build step</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
