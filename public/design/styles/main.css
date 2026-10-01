@@ -1,4 +1,5 @@
 @import url("../tokens.css");
+@import url("showcase.css");
 
 /* ozikoro.com — plain CSS. No preprocessor, no framework, no build step.
    Order: reset, document, typography, layout, components, screens, responsive. */
