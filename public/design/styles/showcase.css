@@ -194,3 +194,4 @@ body { background: var(--cream); }
 }
 
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.sx-feature::after{background:linear-gradient(180deg,rgba(15,13,11,.75),rgba(15,13,11,.25) 45%,rgba(15,13,11,.9))}
