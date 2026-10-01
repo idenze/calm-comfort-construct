@@ -11,4 +11,4 @@
 - [x] Extend the walkthrough index, shared navigation, mobile layouts, and documentation
 - [x] Verify every new screen at desktop and 375px, including keyboard flow and broken-image checks
 
-- [ ] Inspect the supplied Ozikoro logo and align the current visual refinements with its colours
+- [x] Inspect the supplied Ozikoro logo and align the current visual refinements with its colours
