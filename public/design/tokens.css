@@ -5,26 +5,26 @@
 
 :root {
   /* ---- Colour: warm paper, ink, and a single earth accent ---------------- */
-  --paper:            #faf6ef;  /* page ground */
-  --paper-raised:     #ffffff;  /* cards, entries */
-  --paper-sunk:       #f2ece1;  /* wells, filter rails, empty states */
-  --paper-edge:       #e4dac8;  /* hairlines */
-  --paper-edge-firm:  #cbbda5;  /* stronger rules, focus rings on dark */
+  --paper:            #f7f1e3;  /* page ground */
+  --paper-raised:     #fffdf8;  /* cards, entries */
+  --paper-sunk:       #efe6d2;  /* wells, filter rails, empty states */
+  --paper-edge:       #e2d5b8;  /* hairlines */
+  --paper-edge-firm:  #c9b48a;  /* stronger rules, focus rings on dark */
 
   --ink:              #1d1a16;  /* body text */
   --ink-strong:       #0f0d0b;  /* headings */
   --ink-muted:        #6b6358;  /* metadata, captions */
   --ink-faint:        #8d8577;  /* placeholder, disabled */
 
-  --accent:           #7a2e1d;  /* ikoro wood / iron oxide — links, marks */
-  --accent-deep:      #5a1f12;  /* hover, pressed */
-  --accent-wash:      #f3e4de;  /* accent-tinted surface */
+  --accent:           #0d5c45;  /* ikoro wood / iron oxide — links, marks */
+  --accent-deep:      #08402f;  /* hover, pressed */
+  --accent-wash:      #e2efe8;  /* accent-tinted surface */
 
   --indigo:           #243a52;  /* scholarly second voice: sources, citations */
   --indigo-wash:      #e7ecf2;
 
-  --ochre:            #9a6a14;  /* period / date chips */
-  --ochre-wash:       #f6edd9;
+  --ochre:            #8a5a2b;  /* period / date chips */
+  --ochre-wash:       #f3e6d3;
 
   --moss:             #3c5436;  /* verified / sourced states */
   --moss-wash:        #e7eee4;
@@ -83,11 +83,28 @@
   --s-9: 6rem;
 
   /* ---- Shape ------------------------------------------------------------- */
-  --r-sm: 2px;
-  --r-md: 4px;
-  --r-lg: 8px;
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 18px;
   --shadow-raise: 0 1px 2px rgba(29, 26, 22, 0.06), 0 6px 18px rgba(29, 26, 22, 0.05);
 
-  --container: 72rem;
+  /* ---- Showcase palette: night, emerald, gold, bronze, cream ---------- */
+  --night:        #0f0d0b;
+  --night-2:      #1c1813;
+  --night-3:      #2a241c;
+  --emerald:      #0d5c45;
+  --emerald-deep: #062e22;
+  --gold:         #c9a84c;
+  --gold-bright:  #e8c766;
+  --bronze:       #8a5a2b;
+  --cream:        #f7f1e3;
+  --on-night:     #f3ead6;
+  --on-night-muted: #b9ad94;
+  --gradient-gold: linear-gradient(120deg, #a8822f 0%, #e8c766 45%, #c9a84c 70%, #8a5a2b 100%);
+  --gradient-night: linear-gradient(180deg, rgba(15,13,11,0) 0%, rgba(15,13,11,.55) 45%, rgba(15,13,11,.94) 100%);
+  --shadow-lift: 0 18px 40px -18px rgba(15,13,11,.55);
+  --shadow-glow: 0 0 0 1px rgba(201,168,76,.35), 0 20px 50px -20px rgba(201,168,76,.45);
+
+  --container: 76rem;
   --container-narrow: 48rem;
 }
