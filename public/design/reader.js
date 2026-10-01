@@ -1,4 +1,27 @@
 (() => {
+  const copyButton = document.querySelector('[data-copy-link]');
+  const copyStatus = document.querySelector('[data-copy-status]');
+  copyButton?.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      if (copyStatus) copyStatus.textContent = 'Article link copied.';
+    } catch {
+      if (copyStatus) copyStatus.textContent = 'Copy the address from your browser to share this article.';
+    }
+  });
+
+  document.querySelectorAll('[data-share]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const url = encodeURIComponent(window.location.href);
+      const title = encodeURIComponent(document.title);
+      const target = button.getAttribute('data-share') === 'facebook'
+        ? `https://www.facebook.com/sharer/sharer.php?u=${url}`
+        : `https://twitter.com/intent/tweet?url=${url}&text=${title}`;
+      window.open(target, '_blank', 'noopener,noreferrer,width=720,height=560');
+    });
+  });
+
+  document.querySelector('[data-print-article]')?.addEventListener('click', () => window.print());
   const root = document.querySelector('[data-reader]');
   const play = document.querySelector('[data-listen-toggle]');
   const speed = document.querySelector('[data-listen-speed]');
