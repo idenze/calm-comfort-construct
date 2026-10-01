@@ -468,3 +468,66 @@ button.sx-video-card[aria-pressed="true"] .sx-video-thumb{outline:2px solid var(
 .sx-inline-player-meta{margin-top:.4rem;color:var(--on-night-muted);font-size:.85rem}
 .sx-inline-player-actions{display:flex;flex-wrap:wrap;gap:.6rem}
 @media (max-width:40rem){.sx-inline-player{padding:1.8rem 0 2.2rem}.sx-inline-player-actions .btn{width:100%;text-align:center}}
+
+/* Listen — music-blog tracklist */
+.sx-listen-hero{padding:clamp(3rem,8vw,6rem) 0 2.5rem;background:linear-gradient(155deg,var(--night),var(--emerald-deep));border-bottom:1px solid rgba(201,168,76,.32)}
+.sx-listen-hero .eyebrow{color:var(--gold-bright)}
+.sx-listen-hero h1{max-width:10ch;margin-top:.55rem;color:var(--on-night);font-size:clamp(2.8rem,8vw,6rem);line-height:.9}
+.sx-listen-hero h1 em{color:var(--gold-bright);font-weight:400}
+.sx-listen-hero .lede{max-width:36rem;margin-top:1.2rem;color:var(--on-night-muted)}
+.sx-listen-feature{padding-block:2.5rem}
+.sx-listen-feature .eyebrow{color:var(--gold-bright)}
+.sx-listen-feature-card{display:grid;grid-template-columns:16rem minmax(0,1fr);gap:2rem;align-items:center;margin-top:1rem;padding:1.5rem;background:var(--night-2);border:1px solid rgba(201,168,76,.32);border-radius:14px}
+.sx-listen-feature-card img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:10px;filter:saturate(.8) contrast(1.05)}
+.sx-listen-series{color:var(--gold);font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+.sx-listen-feature-copy h2{margin:.5rem 0 .6rem;color:var(--on-night);font-size:clamp(1.6rem,3.5vw,2.4rem);line-height:1.1}
+.sx-listen-feature-copy p{color:var(--on-night-muted);max-width:34rem;line-height:1.6}
+.sx-listen-feature-actions{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.2rem}
+.sx-listen-list{padding-block:1rem 3rem}
+.sx-listen-list .sx-watch-section-head h2{color:var(--on-night)}
+.sx-listen-filters{display:flex;flex-wrap:wrap;gap:.4rem}
+.sx-listen-filters a{padding:.4rem .85rem;border:1px solid rgba(201,168,76,.4);border-radius:999px;color:var(--on-night-muted);font-size:.8rem;text-decoration:none}
+.sx-listen-filters a[aria-current="page"]{background:var(--gold-bright);border-color:var(--gold-bright);color:var(--night);font-weight:700}
+.sx-tracklist{list-style:none;margin:0;padding:0;border-top:1px solid rgba(201,168,76,.28)}
+.sx-track{display:grid;grid-template-columns:2.2rem 4.5rem minmax(0,1fr) auto 2.6rem;gap:1rem;align-items:center;padding:.8rem .5rem;border-bottom:1px solid rgba(201,168,76,.22);color:var(--on-night);text-decoration:none;border-radius:6px}
+.sx-track:hover,.sx-track:focus-visible{background:rgba(201,168,76,.08)}
+.sx-track:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px}
+.sx-track-no{color:var(--gold);font-family:var(--font-serif);font-size:1.05rem;text-align:center}
+.sx-track img{width:4.5rem;height:4.5rem;object-fit:cover;border-radius:8px;filter:saturate(.75) contrast(1.05)}
+.sx-track-main{min-width:0}
+.sx-track-main strong{display:block;font-family:var(--font-serif);font-size:1.1rem;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sx-track-main small{display:block;margin-top:.25rem;color:var(--on-night-muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em}
+.sx-track-len{color:var(--on-night-muted);font-size:.8rem}
+.sx-track-play{display:grid;width:2.6rem;height:2.6rem;place-items:center;border:1px solid rgba(201,168,76,.5);border-radius:50%;color:var(--gold-bright);font-size:.85rem;transition:background .2s ease}
+.sx-track:hover .sx-track-play{background:var(--gold-bright);color:var(--night)}
+@media (max-width:60rem){.sx-listen-feature-card{grid-template-columns:11rem minmax(0,1fr);gap:1.25rem}}
+@media (max-width:40rem){
+.sx-listen-feature-card{grid-template-columns:1fr;padding:1.1rem}
+.sx-listen-feature-card img{aspect-ratio:16/10}
+.sx-track{grid-template-columns:3.6rem minmax(0,1fr) 2.4rem;gap:.75rem;padding:.7rem .25rem}
+.sx-track-no,.sx-track-len{display:none}
+.sx-track img{width:3.6rem;height:3.6rem}
+.sx-track-main strong{font-size:.98rem;white-space:normal}
+.sx-track-play{width:2.4rem;height:2.4rem}
+}
+
+/* Watch — music-blog rows on mobile */
+@media (max-width:40rem){
+.sx-video-grid{grid-template-columns:1fr;gap:.35rem}
+button.sx-video-card{display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:.85rem;align-items:center;padding:.6rem .25rem;border-bottom:1px solid rgba(201,168,76,.22);border-radius:6px}
+button.sx-video-card:hover{background:rgba(201,168,76,.08)}
+.sx-video-thumb{aspect-ratio:16/10;border-radius:8px}
+.sx-video-play{width:2.2rem;height:2.2rem;left:.5rem;bottom:.5rem;font-size:.8rem;box-shadow:0 0 0 .25rem rgba(15,13,11,.34)}
+.sx-video-meta{margin-top:0;font-size:.62rem}
+.sx-video-card h3{margin-top:.25rem;font-size:.98rem}
+.sx-video-card p{display:none}
+.sx-watch-section{padding:2rem 0}
+.sx-watch-hero h1{font-size:3rem}
+}
+
+/* Mobile fixes: listen head + watch row placement */
+@media (max-width:40rem){
+.sx-listen-list .sx-watch-section-head{grid-template-columns:1fr;align-items:start}
+.sx-video-thumb{grid-row:1/span 2}
+.sx-video-card h3{grid-column:2}
+}
