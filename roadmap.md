@@ -12,3 +12,5 @@
 - [x] Verify every new screen at desktop and 375px, including keyboard flow and broken-image checks
 
 - [x] Inspect the supplied Ozikoro logo and align the current visual refinements with its colours
+
+- [x] Redesign article openings with publication dates, sharing, and book-style print/PDF output
