@@ -524,3 +524,10 @@ button.sx-video-card:hover{background:rgba(201,168,76,.08)}
 .sx-watch-section{padding:2rem 0}
 .sx-watch-hero h1{font-size:3rem}
 }
+
+/* Mobile fixes: listen head + watch row placement */
+@media (max-width:40rem){
+.sx-listen-list .sx-watch-section-head{grid-template-columns:1fr;align-items:start}
+.sx-video-thumb{grid-row:1/span 2}
+.sx-video-card h3{grid-column:2}
+}
