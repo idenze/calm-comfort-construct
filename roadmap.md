@@ -14,7 +14,7 @@
 - [x] Inspect the supplied Ozikoro logo and align the current visual refinements with its colours
 
 - [x] Redesign article openings with publication dates, sharing, and book-style print/PDF output
-- [ ] Add a distinctive, youth-friendly video library using external video embeds
-- [ ] Review Re-Entanglements for relevant archive categories and page formats Ozikoro still needs
-- [ ] Update shared navigation, walkthrough documentation, and mobile layouts for approved additions
+- [x] Add a distinctive, youth-friendly video library using external video embeds
+- [x] Review Re-Entanglements for relevant archive categories and page formats Ozikoro still needs
+- [x] Update shared navigation, walkthrough documentation, and mobile layouts for approved additions
 - [ ] Verify new screens on desktop and mobile
