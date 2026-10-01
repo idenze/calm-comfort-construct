@@ -210,6 +210,8 @@ body { background: var(--cream); }
 @media (max-width: 60rem) {
   .sx-doors { grid-template-columns: repeat(2, 1fr); }
   .sx-strip { grid-template-columns: repeat(3, 1fr); }
+  .sx-tales { grid-template-columns: repeat(2, 1fr); }
+  .sx-tale-lead { grid-column: span 2; }
   .sx-citation-inner { grid-template-columns: 1fr; gap: var(--s-7); }
   .masthead { position: static; }
 }
