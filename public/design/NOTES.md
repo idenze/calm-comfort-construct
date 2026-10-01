@@ -88,6 +88,10 @@ citable addresses. The showcase home page uses real editorial images from the li
 archive records without approved imagery retain deliberate CSS image plates. Webfonts degrade to
 Georgia/system-ui.
 
+**Recent archive hierarchy.** The home page gives the archive one large photographic field, while
+all five recent histories use the same type size, spacing and action treatment beneath it. The image
+sets the cultural register; it does not promote one article above the others.
+
 **Accessibility.** One `h1` per screen and a real heading hierarchy through long documents; skip
 link on every screen; `:focus-visible` ring in a blue that is never used decoratively, so a focus
 ring is never mistaken for a link; filters are a real `fieldset`/`legend` form with labelled
