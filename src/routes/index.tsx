@@ -25,6 +25,9 @@ export const Route = createFileRoute("/")({
 const screens = [
   ["Walkthrough — every screen", "/design/index.html"],
   ["Home", "/design/screens/home.html"],
+  ["Igbo Market Days", "/design/screens/market-days.html"],
+  ["Folklore reader", "/design/screens/folklore-reader.html"],
+  ["Listen library", "/design/screens/listen.html"],
   ["Folklores storybook", "/design/screens/folklore.html"],
   ["Modern article reader", "/design/screens/article.html"],
   ["About & verified published authors", "/design/screens/about.html"],
