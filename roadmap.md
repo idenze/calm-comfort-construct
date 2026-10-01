@@ -18,10 +18,10 @@
 - [x] Review Re-Entanglements for relevant archive categories and page formats Ozikoro still needs
 - [x] Update shared navigation, walkthrough documentation, and mobile layouts for approved additions
 - [x] Verify new screens on desktop and mobile
-- [ ] Expand Collections into dedicated photographs, documents, oral recordings, and material culture pages
-- [ ] Align and refine the homepage Watch, category, and town sections for desktop and mobile
-- [ ] Add a town index and town detail/article-list journey; repair all town links
-- [ ] Add a dedicated citation guide and point the homepage citation call-to-action to it
-- [ ] Add an Africa-wide cultural calendar with events, an Igbo calendar using the supplied helper basis, and a careers page
-- [ ] Add a compact live modern date and market day to the homepage platform bar
-- [ ] Add new screens to shared navigation and walkthrough, then verify desktop and mobile
+- [x] Expand Collections into dedicated photographs, documents, oral recordings, and material culture pages
+- [x] Align and refine the homepage Watch, category, and town sections for desktop and mobile
+- [x] Add a town index and town detail/article-list journey; repair all town links
+- [x] Add a dedicated citation guide and point the homepage citation call-to-action to it
+- [x] Add an Africa-wide cultural calendar with events, an Igbo calendar using the supplied helper basis, and a careers page
+- [x] Add a compact live modern date and market day to the homepage platform bar
+- [x] Add new screens to shared navigation and walkthrough, then verify desktop and mobile

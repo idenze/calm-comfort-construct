@@ -1,5 +1,15 @@
 # ozikoro.com — design notes
 
+## Discovery, place, calendar and careers expansion
+
+- Collections now separate photographs, documents, oral recordings and material culture instead of routing every format to one generic listing.
+- Town discovery now has an All Towns directory and a town profile pattern that groups related articles and archive records.
+- “How to cite Ozikoro” now opens a format-specific citation guide rather than a single publication mock.
+- The African Cultural Calendar demonstrates filters, event states, source labels and submissions without asserting fictional events.
+- The Igbo Calendar uses the supplied demonstration anchor: 1 January 2026 is Orie. This basis requires cultural and community verification before production and is not described as universal.
+- The homepage platform bar calculates the modern date and market day from the same shared script.
+- Careers uses an honest no-vacancies state; it does not invent jobs, benefits or employment claims.
+- The new and revised screens were checked at 1280px and 375px with no horizontal overflow, missing local links, broken images or console errors. The supplied example date, 2 October 2026, resolves to Nkwọ.
 Deliverable for the brief *Design brief: ozikoro.com* (Ozi Ikoro Limited). Static HTML and CSS,
 no build step, no preprocessor, no framework. Every file opens directly in a browser.
 
