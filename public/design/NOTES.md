@@ -17,6 +17,11 @@ no build step, no preprocessor, no framework. Every file opens directly in a bro
 | `screens/upload.html` | The upload and publish flow |
 | `screens/documents.html` | The archive of documents and photographs |
 | `screens/academy.html` | The Academy landing |
+| `screens/watch.html` | Watch library for films, talks and series |
+| `screens/watch-video.html` | Video player, source record and transcript-first view |
+| `screens/collections.html` | Media-based collections hub |
+| `screens/journeys.html` | Map and timeline-ready place discovery |
+| `screens/topics.html` | Topics A–Z index |
 | `screens/about.html` | About / the institution |
 | `screens/404.html` | 404 |
 | `screens/type-test.html` | Igbo typeface proof (extra; see "Departures") |
@@ -155,3 +160,10 @@ Folklores is deliberately a separate reading register: a cover, contents and ful
 - Listen panel uses optional browser narration (reader.js); published audio needs narrator, rights and transcript. Text always stays readable without JavaScript.
 - Igbo Market Days shows the modern date and the four days, but only converts after a verified community calendar is chosen — no universal anchor is claimed.
 - Folklore library gives every story equal weight.
+
+## Watch and archive discovery
+- Watch uses a charcoal-and-gold screening-room treatment, but keeps the Ozikoro source-first language and emerald as a supporting archive colour.
+- Public YouTube videos retain their real publisher names and direct source links. Ozikoro ownership is never implied; duration is omitted where it could not be verified.
+- Video pages never autoplay, use privacy-enhanced embeds, keep a transcript-first low-bandwidth path visible, and reserve missing transcript text rather than inventing it.
+- Collections, Journeys & Places and Topics A–Z add media-, location- and alphabet-based discovery without copying the reference site's colonial framing or blog structure.
+- Corrections extend the existing contribution route and preserve a visible review trail instead of silently replacing a published record.
