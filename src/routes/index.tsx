@@ -25,6 +25,7 @@ export const Route = createFileRoute("/")({
 const screens = [
   ["Walkthrough — every screen", "/design/index.html"],
   ["Home", "/design/screens/home.html"],
+  ["Folklores & myths", "/design/screens/folklore.html"],
   ["An article (long-form)", "/design/screens/article.html"],
   ["Archive index with filters", "/design/screens/archive-index.html"],
   ["Researcher profile", "/design/screens/researcher-profile.html"],

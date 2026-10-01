@@ -9,6 +9,7 @@ no build step, no preprocessor, no framework. Every file opens directly in a bro
 | --- | --- |
 | `index.html` | Walkthrough linking every screen |
 | `screens/home.html` | Home |
+| `screens/folklore.html` | Folklores & myths — tales, customs and oral traditions |
 | `screens/article.html` | A full long-form article |
 | `screens/archive-index.html` | The archive index with its filters |
 | `screens/researcher-profile.html` | A researcher profile (plus the empty-profile state) |
