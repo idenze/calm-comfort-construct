@@ -30,4 +30,4 @@
 - [x] Replace remaining top-bar company labels with live modern date and Igbo market day
 - [x] Restore a compact, presentable homepage category section and redesign homepage town cards with clearer names
 - [x] Brighten and mature the Igbo calendar, add full-year mode, and incorporate relevant verified calendar functions
-- [ ] Verify revised collection, calendar, homepage, and shared-header journeys at desktop and 375px
+- [x] Verify revised collection, calendar, homepage, and shared-header journeys at desktop and 375px
