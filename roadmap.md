@@ -39,8 +39,8 @@
 - [x] Darken green areas on both calendar pages; make cultural events link to content.
 - [x] Point dictionary links to ozituma.com and Learn Igbo links to learn.ozituma.com.
 
-- [ ] Keep mobile colours identical to desktop; hide the demonstration/platform links and use market-day bar + logo + hamburger navigation.
-- [ ] Optimise mobile page density while preserving desktop layouts and essential content.
-- [ ] Add the missing About mission image.
-- [ ] Standardise Projects thumbnails, make every card clickable, and add a project-detail design.
+- [x] Keep mobile colours identical to desktop; hide the demonstration/platform links and use market-day bar + logo + hamburger navigation.
+- [x] Optimise mobile page density while preserving desktop layouts and essential content.
+- [x] Add the missing About mission image.
+- [x] Standardise Projects thumbnails, make every card clickable, and add a project-detail design.
 - [ ] Verify Home, About, Projects, and project detail at desktop and mobile.
