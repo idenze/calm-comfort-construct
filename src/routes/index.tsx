@@ -45,6 +45,8 @@ const screens = [
   ["Folklores storybook", "/design/screens/folklore.html"],
   ["Modern article reader", "/design/screens/article.html"],
   ["About & verified published authors", "/design/screens/about.html"],
+  ["Projects", "/design/screens/projects.html"],
+  ["Public ledger", "/design/screens/ledger.html"],
   ["Donation flow", "/design/screens/donate.html"],
   ["Sponsor flow", "/design/screens/sponsors.html"],
   ["Investor flow", "/design/screens/investors.html"],
