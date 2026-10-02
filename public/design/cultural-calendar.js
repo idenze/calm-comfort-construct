@@ -5,6 +5,7 @@
   const status = panel?.querySelector('[data-event-status]');
   const meta = panel?.querySelector('[data-event-meta]');
   const description = panel?.querySelector('[data-event-description]');
+  const storyLink = panel?.querySelector('[data-event-story]');
   if (!panel || !title || !status || !meta || !description) return;
 
   const selectDay = (button) => {
@@ -16,6 +17,7 @@
     status.textContent = button.dataset.status || 'Verification pending';
     meta.textContent = button.dataset.meta || 'Place and organiser will appear here.';
     description.textContent = button.dataset.description || 'Event details will appear here after verification.';
+    if (storyLink) storyLink.href = `cultural-event.html?date=${encodeURIComponent(button.dataset.eventDate || '')}`;
     panel.hidden = false;
     panel.focus({ preventScroll: true });
     if (window.matchMedia('(max-width: 60rem)').matches) panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
