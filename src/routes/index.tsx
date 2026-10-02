@@ -46,6 +46,7 @@ const screens = [
   ["Modern article reader", "/design/screens/article.html"],
   ["About & verified published authors", "/design/screens/about.html"],
   ["Projects", "/design/screens/projects.html"],
+  ["Project detail", "/design/screens/project.html"],
   ["Public ledger", "/design/screens/ledger.html"],
   ["Donation flow", "/design/screens/donate.html"],
   ["Sponsor flow", "/design/screens/sponsors.html"],

@@ -21,3 +21,11 @@
   function renderYear(){if(!yearInput||!yearGrid)return;const year=Math.min(2100,Math.max(1900,Number(yearInput.value)||today.getFullYear()));yearInput.value=year;yearGrid.innerHTML="";for(let month=0;month<12;month++){const card=document.createElement("article"),name=new Intl.DateTimeFormat("en-NG",{month:"long"}).format(new Date(year,month,1)),count=new Date(year,month+1,0).getDate();card.innerHTML=`<h3>${name}</h3><div>${Array.from({length:count},(_,i)=>{const d=new Date(year,month,i+1);return `<span data-market="${marketDay(d)}"><b>${i+1}</b><small>${marketDay(d)}</small></span>`}).join("")}</div>`;yearGrid.appendChild(card)}}
   yearInput?.addEventListener("change",renderYear);renderYear();
 })();
+// Shared compact navigation for phone layouts.
+if (!document.querySelector('script[data-mobile-nav]')) {
+  const mobileNav = document.createElement('script');
+  mobileNav.src = new URL('mobile-nav.js', document.currentScript?.src || window.location.href).href;
+  mobileNav.defer = true;
+  mobileNav.dataset.mobileNav = '';
+  document.head.appendChild(mobileNav);
+}
