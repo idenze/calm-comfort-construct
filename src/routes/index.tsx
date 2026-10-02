@@ -32,7 +32,7 @@ const screens = [
   ["Watch video", "/design/screens/watch-video.html"],
   ["Collections hub", "/design/screens/collections.html"],
   ["Photographs", "/design/screens/photographs.html"],
-  ["Oral recordings", "/design/screens/oral-recordings.html"],
+  ["Oral recordings — Listen", "/design/screens/listen.html"],
   ["Material culture", "/design/screens/material-culture.html"],
   ["Towns directory", "/design/screens/towns.html"],
   ["Town profile", "/design/screens/town.html"],
