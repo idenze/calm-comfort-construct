@@ -11,3 +11,4 @@
 
 - Keep the Ozikoro deliverable as static HTML/CSS screens under `public/design`; this preserves the required no-build, backend-ready handoff format.
 - Use one shared dashboard visual system with role-specific static pages; this exposes every blueprint role while keeping navigation and states consistent.
+- Keep the Ozikoro handoff progressively enhanced: reading and navigation work without JavaScript, while small scripts may power calendars, listening, and embedded video interactions.

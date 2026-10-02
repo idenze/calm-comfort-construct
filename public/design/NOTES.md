@@ -80,7 +80,7 @@ academic and an elder each reach their own way in without reading the page.
 
 **One institution, three roles.** A persistent dark platform bar across the top of every screen
 names ozikoro.com, ozituma.com and learn.ozituma.com with the current one marked, and carries
-"Ozi Ikoro Limited" on the right. It is the same bar on all three sites; each site keeps its own
+the live modern date and corresponding demonstration market day on the right. It is the same bar on all three sites; each site keeps its own
 masthead and colour emphasis beneath it, so they are one institution and three recognisable tools.
 
 **Typeface.** Noto Serif (headings and long-form) and Noto Sans (interface), with Noto Sans Mono
@@ -98,7 +98,7 @@ characterisations, and says so in the body. Source type is a neutral field — "
 "colonial record", "academic source" — with oral history given the same visual standing as the
 other two, not a lesser one. No imagery of people, named places or documents appears anywhere.
 
-**Fast and light.** No JavaScript at all in the deliverable, and none required by the design.
+**Fast and light.** Core reading remains available without JavaScript. Small scripts progressively enhance the market calendars, listening controls and in-page video player.
 Search and filtering are plain `GET` forms that submit and reload, so results have bookmarkable,
 citable addresses. The showcase home page uses real editorial images from the live Ozikoro site;
 archive records without approved imagery retain deliberate CSS image plates. Webfonts degrade to
@@ -177,3 +177,9 @@ Folklores is deliberately a separate reading register: a cover, contents and ful
 - Video pages never autoplay, use privacy-enhanced embeds, keep a transcript-first low-bandwidth path visible, and reserve missing transcript text rather than inventing it.
 - Collections, Journeys & Places and Topics A–Z add media-, location- and alphabet-based discovery without copying the reference site's colonial framing or blog structure.
 - Corrections extend the existing contribution route and preserve a visible review trail instead of silently replacing a published record.
+
+## Calendar and document-library refinement
+- Cultural-calendar dates containing events are real buttons that reveal an accessible same-page event view; plain dates remain non-interactive.
+- The Igbo calendar now offers date lookup, the next ten occurrences of a selected market day, aligned Gregorian month navigation and a 12-month year view. All calculations retain the explicitly labelled demonstration anchor pending community verification.
+- Oral recordings enter through Listen. Documents is a separate research and PDF library where open files download and restricted records remain visible without a download action.
+- Homepage categories return to a compact pill index, while town cards use stronger image labels and a phone-friendly horizontal browse pattern.

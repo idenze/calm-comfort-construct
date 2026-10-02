@@ -25,3 +25,9 @@
 - [x] Add an Africa-wide cultural calendar with events, an Igbo calendar using the supplied helper basis, and a careers page
 - [x] Add a compact live modern date and market day to the homepage platform bar
 - [x] Add new screens to shared navigation and walkthrough, then verify desktop and mobile
+- [x] Make cultural-calendar event dates clickable with an accessible day-event view and brighter styling
+- [x] Route Oral recordings to Listen and rebuild Documents as downloadable research/PDF library with locked states
+- [x] Replace remaining top-bar company labels with live modern date and Igbo market day
+- [x] Restore a compact, presentable homepage category section and redesign homepage town cards with clearer names
+- [x] Brighten and mature the Igbo calendar, add full-year mode, and incorporate relevant verified calendar functions
+- [x] Verify revised collection, calendar, homepage, and shared-header journeys at desktop and 375px
