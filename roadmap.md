@@ -31,3 +31,10 @@
 - [x] Restore a compact, presentable homepage category section and redesign homepage town cards with clearer names
 - [x] Brighten and mature the Igbo calendar, add full-year mode, and incorporate relevant verified calendar functions
 - [x] Verify revised collection, calendar, homepage, and shared-header journeys at desktop and 375px
+## Current request
+- [ ] Restore region/stage and Explore town labels to homepage town tiles without changing tile size.
+- [ ] Add a proper Publications library page and correct footer links.
+- [ ] Expand Donate into a multi-currency and crypto donation-selection demonstration.
+- [ ] Redesign folklore without a large top image and with a darker Listen-adjacent palette.
+- [ ] Darken green areas on both calendar pages; make cultural events link to content.
+- [ ] Point dictionary links to ozituma.com and Learn Igbo links to learn.ozituma.com.
