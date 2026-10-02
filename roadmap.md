@@ -43,4 +43,4 @@
 - [x] Optimise mobile page density while preserving desktop layouts and essential content.
 - [x] Add the missing About mission image.
 - [x] Standardise Projects thumbnails, make every card clickable, and add a project-detail design.
-- [ ] Verify Home, About, Projects, and project detail at desktop and mobile.
+- [x] Verify Home, About, Projects, and project detail at desktop and mobile.

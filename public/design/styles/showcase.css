@@ -589,7 +589,7 @@ button.sx-video-card:hover{background:rgba(201,168,76,.08)}
 .sx-proj{background:#fffaf0;border:1px solid rgba(20,38,29,.12);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s}
 .sx-proj:hover{transform:translateY(-4px);box-shadow:0 18px 40px -20px rgba(0,0,0,.45)}
 .sx-proj figure{margin:0;position:relative;aspect-ratio:16/10;background:#14261d}
-.sx-proj img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 38%;filter:saturate(.78) contrast(1.04)}
+.sx-proj img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 38%;filter:saturate(.78) contrast(1.04)}
 .sx-proj .sx-badge{position:absolute;top:.75rem;left:.75rem;background:#d8b25a;color:#14110a;font-size:.72rem;font-weight:700;padding:.25rem .6rem;border-radius:999px;text-transform:uppercase;letter-spacing:.06em}
 .sx-proj .sx-badge.done{background:#1f6b4a;color:#fff}.sx-proj .sx-badge.plan{background:#f6efe0;color:#14261d}
 .sx-proj-body{padding:var(--s-4);display:flex;flex-direction:column;gap:.6rem;flex:1}
