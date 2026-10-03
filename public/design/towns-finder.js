@@ -57,7 +57,7 @@
   cascade({ division: q.get("division"), clan: q.get("clan"), town: q.get("town") });
   cascade({ division: div.value, clan: q.get("clan"), town: q.get("town") });
   eth.addEventListener("change", function () { cascade(); });
-  div.addEventListener("change", function () { cascade({}); });
+  div.addEventListener("change", function () { cascade({ division: div.value }); });
   clan.addEventListener("change", function () { cascade({ division: div.value, clan: clan.value }); });
   town.addEventListener("change", render);
   text.addEventListener("input", render);
