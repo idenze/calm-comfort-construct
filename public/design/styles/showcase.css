@@ -762,3 +762,20 @@ button.sx-video-card:hover{background:rgba(201,168,76,.08)}
 .sx-cal-sources b{color:var(--emerald-deep);font-family:var(--font-serif)}
 @media(max-width:60rem){.sx-cal-units{grid-template-columns:repeat(2,1fr)}.sx-cal-directions,.sx-cal-fest{grid-template-columns:1fr}}
 @media(max-width:40rem){.sx-cal-knowledge{margin-top:2.5rem;padding-top:2rem}.sx-cal-units{grid-template-columns:1fr}.sx-cal-meanings{grid-template-columns:1fr}.sx-cal-sample-wrap{padding:1rem;overflow-x:auto}.sx-cal-sample td{min-width:3.2rem;padding:.45rem;font-size:.8rem}.sx-cal-sample th{padding:.45rem .6rem;font-size:.9rem}}
+
+/* Comments — registered members only */
+.sx-comments{max-width:46rem;margin:3rem auto;padding:2rem;background:var(--paper-raised);color:var(--ink);border:1px solid var(--paper-edge);border-top:3px solid #c9a227;border-radius:.5rem}
+.sx-comments h2{font-family:"Noto Serif",serif;margin:.25rem 0}.sx-comments h2 span{font-size:.9rem;color:var(--ink-muted);font-weight:400}
+.sx-comment-gate,.sx-comment-form{margin-top:1.25rem;padding:1.25rem;background:var(--paper-sunk);border-radius:.4rem}
+.sx-comment-gate .row{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:.75rem}
+.sx-comment-form label{display:block;font-weight:600;margin:.5rem 0 .35rem}
+.sx-comment-form textarea{width:100%;box-sizing:border-box;padding:.75rem;border:1px solid var(--paper-edge-firm);border-radius:.35rem;font:inherit;background:var(--paper-raised);color:var(--ink)}
+.sx-comment-actions{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:.75rem}
+.sx-comment-actions .sx-check{font-weight:400;margin:0}
+.sx-comment-as{display:flex;align-items:center;gap:.5rem;margin:0}
+.sx-avatar{flex:none;display:inline-grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--accent);color:#f7f1e3;font-weight:700}
+.sx-comment-list{list-style:none;padding:0;margin:1.5rem 0 0}
+.sx-comment-list li{display:flex;gap:.85rem;padding:1rem 0;border-top:1px solid var(--paper-edge)}
+.sx-comment-list p{margin:.2rem 0}.sx-comment-meta{font-size:.85rem;color:var(--ink-muted)}
+.sx-comment-reply{background:none;border:0;color:var(--accent);font-weight:600;cursor:pointer;padding:0}
+@media (max-width:40rem){.sx-comments{margin:2rem 1rem;padding:1.25rem}.sx-comment-actions .btn{width:100%}}
